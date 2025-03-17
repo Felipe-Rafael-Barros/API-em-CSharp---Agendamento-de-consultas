@@ -1,6 +1,0 @@
-@DevJobsAPI_HostAddress = http://localhost:5133
-
-GET {{DevJobsAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
