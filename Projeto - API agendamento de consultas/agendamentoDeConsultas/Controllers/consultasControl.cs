@@ -7,7 +7,7 @@ namespace agendamentoDeConsultas.Controllers
     [ApiController]
     public class consultasControl
     {
-        private static List<Consultas> __consultas = new List<Consultas>();
+        private static List<Consulta> __consultas = new List<Consulta>();
 
         
     }

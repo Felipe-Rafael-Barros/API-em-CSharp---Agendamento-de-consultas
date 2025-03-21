@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace agendamentoDeConsultas.Models
 {
-    public class Consultas
+    public class Consulta
     {
         [Key]
         public int Id { get; set; } //Definir como PK
@@ -23,7 +23,7 @@ namespace agendamentoDeConsultas.Models
         [Required]
         public string Status { get; set; }
 
-        public Medicos Medico { get; set; }
-        public Pacientes Paciente { get; set; }
+        public Medico Medico { get; set; }
+        public Paciente Paciente { get; set; }
     }
 }

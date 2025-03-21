@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace agendamentoDeConsultas.Models
 {
-    public class Medicos
+    public class Paciente
     {
         [Key]
         public int Id { get; set; }
@@ -21,8 +21,8 @@ namespace agendamentoDeConsultas.Models
         [EmailAddress]
         public string Email { get; set; }
         [Required]
-
-
-        public ICollection<Consultas> Consultas{get;set;}
+        [StringLength(15)]
+        public string Telefone { get; set; } 
+        public ICollection<Consulta> Consultas{get;set;}
     }
 }
