@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("agendamentoDeConsultas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc84ed6bc0e2469d5bd13ec4c6a000fd1dd17683")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bbd2baa17643d97d664027b1aebd3174ab1a0d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("agendamentoDeConsultas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("agendamentoDeConsultas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
